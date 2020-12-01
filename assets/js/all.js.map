@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"all.js","sourcesContent":["// $(document).ready(function() {\r\n//   $('.product-menu-list').on('click', function(e) {\r\n//     e.preventDefault();\r\n//     console.log(this);\r\n//     $('.product-menu-list a').toggleClass('active');\r\n//   });\r\n// });"]}
