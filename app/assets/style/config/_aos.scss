@@ -1,0 +1,15 @@
+[data-aos="translateX-left"] {
+  transform: translateX(0);
+
+  &.aos-animate {
+    transform: translateX(-50px);
+  }
+}
+
+[data-aos="translateX-right"] {
+  transform: translateX(0);
+
+  &.aos-animate {
+    transform: translateX(50px);
+  }
+}
