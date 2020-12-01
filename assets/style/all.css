@@ -9257,6 +9257,24 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 900;
   font-style: italic; }
 
+[data-aos="translateX-left"] {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0); }
+  [data-aos="translateX-left"].aos-animate {
+    -webkit-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+            transform: translateX(-50px); }
+
+[data-aos="translateX-right"] {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0); }
+  [data-aos="translateX-right"].aos-animate {
+    -webkit-transform: translateX(50px);
+        -ms-transform: translateX(50px);
+            transform: translateX(50px); }
+
 .logo {
   background: url(https://hexschool.github.io/webLayoutTraining1st/week7/logo-fixie.svg);
   width: 112px;
@@ -9286,7 +9304,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 960px; }
 
 .jumbotron {
-  background: url(https://hexschool.github.io/webLayoutTraining1st/week7/img4.jpg) no-repeat center;
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week7/img4.jpg) no-repeat fixed center;
   background-size: cover;
   padding-bottom: 77px;
   height: 640px; }
